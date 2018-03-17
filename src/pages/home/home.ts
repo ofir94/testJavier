@@ -7,7 +7,6 @@ import { AddEventPage } from '../add-event/add-event';
 
 import {DatabaseProvider} from "../../providers/database/database";
 
-import {  NativeTransitionOptions } from '@ionic-native/native-page-transitions';
 
 
 
