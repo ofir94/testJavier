@@ -71,7 +71,7 @@ export class HomePage {
     });
 */
 
-  var cant = 7300;
+  var cant = 30;
   this.daysInThisMonth = new Array();
   this.weekDayNames = new Array();
 
@@ -315,14 +315,7 @@ addDeveloperPrueba(){
     alert.present();
   }
 
-  swipe(event) {
-    if(event.direction === 2) {
-        this.goToNextMonth()
-    }
-    if(event.direction === 4) {
-        this.goToLastMonth()
-    }
-  }
+
 
 
   private getAnimationDirection(index):string {
